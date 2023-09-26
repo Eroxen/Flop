@@ -1,0 +1,1 @@
+$tellraw @s {"text":"$(i) → ($(s), $(e), $(m))","hoverEvent":{"action":"show_text","value":[{"translate":"chat.copy.click"}]},"clickEvent":{"action":"copy_to_clipboard","value":"scoreboard players set $NAME.sign $OBJECTIVE $(s)\nscoreboard players set $NAME.exponent $OBJECTIVE $(e)\nscoreboard players set $NAME.mantissa $OBJECTIVE $(m)"}}

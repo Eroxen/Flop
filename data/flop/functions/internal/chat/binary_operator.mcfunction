@@ -1,0 +1,1 @@
+$tellraw @s {"text":"$(a) $(op) $(b) = $(out)"}

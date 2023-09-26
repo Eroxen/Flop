@@ -1,0 +1,7 @@
+execute if score output.exponent flop matches 57 store result storage flop:api output double 268435456.000000000000000000000000000000000000000000000000000000000000 run scoreboard players get #write flop
+execute if score output.exponent flop matches 58 store result storage flop:api output double 536870912.000000000000000000000000000000000000000000000000000000000000 run scoreboard players get #write flop
+execute if score output.exponent flop matches 59 store result storage flop:api output double 1073741824.000000000000000000000000000000000000000000000000000000000000 run scoreboard players get #write flop
+execute if score output.exponent flop matches 60 store result storage flop:api output double 2147483648.000000000000000000000000000000000000000000000000000000000000 run scoreboard players get #write flop
+execute if score output.exponent flop matches 61 store result storage flop:api output double 4294967296.000000000000000000000000000000000000000000000000000000000000 run scoreboard players get #write flop
+execute if score output.exponent flop matches 62 store result storage flop:api output double 8589934592.000000000000000000000000000000000000000000000000000000000000 run scoreboard players get #write flop
+execute if score output.exponent flop matches 63 store result storage flop:api output double 17179869184.000000000000000000000000000000000000000000000000000000000000 run scoreboard players get #write flop

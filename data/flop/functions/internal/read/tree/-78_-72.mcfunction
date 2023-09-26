@@ -1,0 +1,7 @@
+execute if score input.exponent flop matches -78 store result score input.mantissa flop run data get storage flop:api input 162259276829213363391578010288128.000000000000000000000000000000000000000000000000000000000000
+execute if score input.exponent flop matches -77 store result score input.mantissa flop run data get storage flop:api input 81129638414606681695789005144064.000000000000000000000000000000000000000000000000000000000000
+execute if score input.exponent flop matches -76 store result score input.mantissa flop run data get storage flop:api input 40564819207303340847894502572032.000000000000000000000000000000000000000000000000000000000000
+execute if score input.exponent flop matches -75 store result score input.mantissa flop run data get storage flop:api input 20282409603651670423947251286016.000000000000000000000000000000000000000000000000000000000000
+execute if score input.exponent flop matches -74 store result score input.mantissa flop run data get storage flop:api input 10141204801825835211973625643008.000000000000000000000000000000000000000000000000000000000000
+execute if score input.exponent flop matches -73 store result score input.mantissa flop run data get storage flop:api input 5070602400912917605986812821504.000000000000000000000000000000000000000000000000000000000000
+execute if score input.exponent flop matches -72 store result score input.mantissa flop run data get storage flop:api input 2535301200456458802993406410752.000000000000000000000000000000000000000000000000000000000000

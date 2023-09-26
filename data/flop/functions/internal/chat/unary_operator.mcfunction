@@ -1,0 +1,1 @@
+$tellraw @s {"text":"$(pref)$(in)$(suf) = $(out)"}
