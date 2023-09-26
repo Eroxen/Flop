@@ -21,6 +21,8 @@ The eroxifloat uses 30 bits to represent the mantissa, making it slightly more p
 The sign can take on the values -1 and 1, rather than 0 and 1 as is the case in regular floating point representations.
 
 # How to use
+Before you can use the pack, you need to run the function `flop:api/create_scoreboards` to set up the required scoreboard objectives and values. This function is not included in the `minecraft:load` tag by default, you need to run it yourself.
+
 Currently, the following six operations are available:
 
 - Addition ($a + b$)
