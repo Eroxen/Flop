@@ -26,3 +26,9 @@ scoreboard players set #const.2^3 flop 8
 scoreboard players set #const.2^2 flop 4
 scoreboard players set #const.2^1 flop 2
 scoreboard players set #const.2^0 flop 1
+
+scoreboard players set #const.3 flop 3
+
+scoreboard players set #const.1.sign flop 1
+scoreboard players set #const.1.exponent flop 0
+scoreboard players set #const.1.mantissa flop 536870912
