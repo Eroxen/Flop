@@ -26,3 +26,5 @@ execute if score operand.b.exponent flop = operand.a.exponent flop if score oper
 
 execute if score #swap flop matches 0 run function flop:internal/add/noswap
 execute if score #swap flop matches 1 run function flop:internal/add/swap
+
+execute if score output.mantissa flop matches 0 run function flop:internal/set_output_0

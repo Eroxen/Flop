@@ -50,3 +50,4 @@ scoreboard players add output.exponent flop 1
 
 execute if score output.mantissa flop >= #const.2^30 flop run function flop:internal/add/rshift
 
+execute if score output.mantissa flop matches 0 run function flop:internal/set_output_0
