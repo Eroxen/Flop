@@ -23,7 +23,7 @@ The sign can take on the values -1 and 1, rather than 0 and 1 as is the case in 
 # How to use
 Before you can use the pack, you need to run the function `flop:api/create_scoreboards` to set up the required scoreboard objectives and values. This function is not included in the `minecraft:load` tag by default, you need to run it yourself.
 
-Currently, the following six operations are available:
+Currently, the following seven operations are available:
 
 - Addition ($a + b$)
 - Subtraction ($a - b$)
@@ -31,6 +31,7 @@ Currently, the following six operations are available:
 - Division ($\frac{a}{b}$)
 - Square ($x^2$)
 - Square root ($\sqrt{x}$)
+- Cosh ($\text{cosh}(x) = \frac{e^x + e^{-x}}{2}$)
 
 The easiest way to use this library is to make use of the functions in the `flop:api/storage/` folder. These perform operations directly on floating-point numbers in NBT storage. For addition, for example:
 
