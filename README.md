@@ -96,7 +96,7 @@ scoreboard players operation <destination 2> = output.exponent flop
 scoreboard players operation <destination 3> = output.mantissa flop
 ```
 
-And for converting back to NBT, there are two options: writing as a float or as a double. Since the eroxifloat is slightly more precise than a normal float, the latter is reccomended. However, in some cases you may need your number to be a float instead.
+And for converting back to NBT, there are two options: writing as a float or as a double. Since the eroxifloat is slightly more precise than a normal float, the latter is recommended. However, in some cases you may need your number to be a float instead.
 ```
 scoreboard players operation output.sign flop = <source 1>
 scoreboard players operation output.exponent flop = <source 2>
