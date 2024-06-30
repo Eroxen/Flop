@@ -1,5 +1,5 @@
 #####################################################################
-# api/eroxifloat/read_as_eroxifloat.mcfunction
+# api/storage/read_as_eroxifloat.mcfunction
 # written by Eroxen
 #
 # Reads a number from NBT storage and converts it to an eroxifloat.
@@ -8,7 +8,7 @@
 # - flop:api :
 #   - input: number of any data type
 #
-# Scoreboard input :
+# Scoreboard output :
 # - flop.api :
 #   - input.sign: sign (1 or -1)
 #   - input.exponent: exponent

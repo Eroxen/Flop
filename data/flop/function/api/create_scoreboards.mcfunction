@@ -7,6 +7,7 @@ scoreboard players set #const.2^30 flop 1073741824
 scoreboard players set #const.2^29 flop 536870912
 scoreboard players set #const.2^28 flop 268435456
 scoreboard players set #const.2^26 flop 67108864
+scoreboard players set #const.2^23 flop 8388608
 scoreboard players set #const.2^22 flop 4194304
 scoreboard players set #const.-2^16 flop -65536
 scoreboard players set #const.2^16 flop 65536
