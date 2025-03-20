@@ -38,6 +38,8 @@ scoreboard players operation #temp2 flop *= #const.2^15 flop
 scoreboard players operation #temp2 flop /= #temp flop
 scoreboard players operation output.mantissa flop += #temp2 flop
 
+execute if score output.mantissa flop matches ..-1 run scoreboard players set output.mantissa flop 2147483647
+
 scoreboard players remove output.exponent flop 1
 
 execute if score output.mantissa flop matches 1.. if score output.mantissa flop < #const.2^29 flop run function flop:internal/add/lshift
