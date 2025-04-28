@@ -42,6 +42,7 @@ execute if score output.mantissa flop matches ..-1 run scoreboard players set ou
 
 scoreboard players remove output.exponent flop 1
 
+execute if score output.mantissa flop >= #const.2^30 flop run function flop:internal/add/rshift
 execute if score output.mantissa flop matches 1.. if score output.mantissa flop < #const.2^29 flop run function flop:internal/add/lshift
 
 execute if score output.mantissa flop matches 0 run function flop:internal/set_output_0
